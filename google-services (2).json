@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "673304444454",
+    "project_id": "vonjymaika261",
+    "storage_bucket": "vonjymaika261.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673304444454:android:adebcb3858b57ca68970e7",
+        "android_client_info": {
+          "package_name": "com.vmmdg.vm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbiQfp5EUVLK_FxUym6pyCZ7hCu1X1ZPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
