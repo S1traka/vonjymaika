@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "4530b0f6-588b-4547-8500-e401b744f28a"
+      }
+    },
+    "android": {
+      "package": "com.sitraka26.myv0project"
+    },
+    "ios": {
+      "bundleIdentifier": "com.sitraka26.myv0project",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}
