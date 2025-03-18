@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "VonjyMaika",
+    "slug": "vonjymaika",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vonjymaika.app",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "VonjyMaika utilise votre position pour vous montrer les incidents à proximité et vous permettre de signaler des urgences.",
+        "NSLocationAlwaysUsageDescription": "VonjyMaika utilise votre position en arrière-plan pour vous alerter des incidents à proximité.",
+        "UIBackgroundModes": ["location", "fetch", "remote-notification"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.vonjymaika.app",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "VIBRATE",
+        "RECEIVE_BOOT_COMPLETED"
+      ],
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "VonjyMaika utilise votre position pour vous montrer les incidents à proximité et vous permettre de signaler des urgences."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "vonjymaika-app"
+      }
+    }
+  }
+}
+
